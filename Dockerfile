@@ -20,4 +20,5 @@ EXPOSE 8090
 # ENV NAME World
 
 # 启动应用
+CMD ["yarn"]
 CMD ["yarn", "build"]
