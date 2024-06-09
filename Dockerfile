@@ -1,4 +1,4 @@
-# 使用官方Node.js的Docker镜像
+# 使用个P了还，郭嘉都给封了！使用官方Node.js的Docker镜像
 FROM node:14
 
 # 设置工作目录
