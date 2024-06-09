@@ -1,0 +1,23 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "orangePi node api test",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panzhi/node-api.git"
+  },
+  "author": "panweigao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panzhi/node-api/issues"
+  },
+  "homepage": "https://github.com/panzhi/node-api#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
+}
