@@ -5,7 +5,7 @@ FROM node:14
 WORKDIR /usr/src/app
 
 # 复制package.json和package-lock.json到工作目录
-COPY package*.json ./ yarn.lock
+COPY package*.json/ ./ yarn.lock/
 
 # 安装项目依赖
 RUN yarn
