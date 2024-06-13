@@ -8,7 +8,6 @@ import { log } from './src/test'
 router.prefix('/api')
 
 router.get('/hello', async (ctx: any) => {
-  log('123')
   ctx.body = "hello World";
 })
 
